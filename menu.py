@@ -108,7 +108,7 @@ def edit_menu(menu):
                 save_menu(menu)
                 break
             elif choice==3:
-                new_item=input("enter new decription:")
+                new_item=input("Enter new decription:")
                 items['description']=new_item
                 save_menu(menu)
                 break
